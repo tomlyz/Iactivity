@@ -605,3 +605,49 @@ body {
 .m-act_out .z-select {
   box-shadow: -10px 0 10px #d5d5d2, 10px 0 10px #d5d5d2, 0 -10px 10px #d5d5d2, 0 10px 10px #d5d5d2;
 }
+
+/* line 3, ../sass/index.scss */
+#index_main {
+  margin: 0 auto;
+  width: 1000px;
+  height: auto;
+}
+
+/* line 8, ../sass/index.scss */
+.m-block {
+  float: left;
+  width: auto;
+  height: auto;
+  padding-top: 40px;
+}
+/* line 13, ../sass/index.scss */
+.m-block .block_head {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+/* line 17, ../sass/index.scss */
+.m-block .block_head .lines {
+  width: 400px;
+  height: 1px;
+  line-height: 1px;
+  float: left;
+  overflow: hidden;
+  margin: 12px 0;
+  background-color: #cbcbcb;
+}
+/* line 26, ../sass/index.scss */
+.m-block .block_head .header {
+  width: 200px;
+  height: 25px;
+  font-size: 24px;
+  float: left;
+  color: #999999;
+  text-align: center;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+/* line 37, ../sass/index.scss */
+.m-block .m-act_1 {
+  margin-right: 50px;
+}

@@ -1,0 +1,40 @@
+@import "prototype";
+
+#index_main {
+    margin:0 auto;
+    width: 1000px;
+    height: auto;
+}
+.m-block {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-top: 40px;
+    .block_head {
+        width: 100%;
+        height: auto;
+        float: left;
+        .lines {
+            width: 400px;
+            height: 1px;
+            line-height: 1px;
+            float: left;
+            overflow: hidden;
+            margin: 12px 0;
+            background-color: #cbcbcb;
+        }
+        .header {
+            width: 200px;
+            height: 25px;
+            font-size: 24px;
+            float: left;
+            color: #999999;
+            text-align:center;
+            line-height: 25px;
+            margin-bottom: 40px;
+        }
+    }
+    .m-act_1 {
+        margin-right: 50px;
+    }
+}

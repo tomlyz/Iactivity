@@ -22,4 +22,22 @@ $(function(){
     }).mouseleave(function(){
         hide = setTimeout(function(){$("ul.dots_ul").hide();$(".triangle_top").hide();},3000);
     })
+
+    // index
+    $(".act_summry").mouseenter(function(){
+        $(".g-mid").find(".down_").hide();
+        $(".g-mid").find(".summry_more").css("top","349px")
+        $(this).parent().parent().find(".down_").show();
+        $(this).parent().find(".summry_more").show().animate({"top":"1px"},200);
+    })
+    $(".summry_more").mouseleave(function(){
+        $(this).parent().parent().find(".down_").hide();
+        $(this).parent().find(".summry_more").animate({"top":"349px"},500);
+        // $(this).parent().find(".summry_more").delay(1000).hide();
+    })
+    $(".m-act").mouseenter(function(){
+        $(this).addClass("z-select");
+    }).mouseleave(function(){
+        $(this).removeClass("z-select");
+    })
 })
