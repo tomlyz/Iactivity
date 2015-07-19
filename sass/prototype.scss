@@ -5,6 +5,10 @@
 
 @import "compass/reset";
 $banerHeight: 600px !default;
+$banner: url(../images/banner.jpg) !default;
+input,textarea {
+    outline: none;
+}
 .clearfix:after {
     display:block;visibility:hidden;clear:both;height:0;width:0;content:".";
 }
@@ -18,6 +22,7 @@ body{
     height: 50px;
     width: 100%;
     float: left;
+    background-color:white;
     .g-logo {
         height: 29px;
         width: 97px;
@@ -244,7 +249,7 @@ body{
     height: $banerHeight;
     width: 100%;
     float: left;
-    background: url(../images/banner.jpg) no-repeat;
+    background: $banner no-repeat;
     position:relative;
     .search {
         width: 800px;
@@ -462,4 +467,7 @@ body{
     .z-select {
         box-shadow:-10px 0 10px #d5d5d2, 10px 0 10px #d5d5d2, 0 -10px 10px #d5d5d2, 0 10px 10px #d5d5d2;  
     }
+}    
+.m-act_1 {
+    margin-right: 50px;
 }

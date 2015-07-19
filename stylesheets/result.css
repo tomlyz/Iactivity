@@ -616,3 +616,16 @@ body {
 .m-act_1 {
   margin-right: 50px;
 }
+
+/* line 3, ../sass/result.scss */
+#result_main {
+  margin: 0 auto;
+  width: 1000px;
+  height: auto;
+  padding-top: 40px;
+}
+
+/* line 9, ../sass/result.scss */
+.m-act_out {
+  margin-bottom: 25px;
+}

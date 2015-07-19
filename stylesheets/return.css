@@ -359,10 +359,10 @@ body {
 
 /* line 248, ../sass/prototype.scss */
 .g-banner {
-  height: 600px;
+  height: 100px;
   width: 100%;
   float: left;
-  background: url(../images/banner.jpg) no-repeat;
+  background: url(../images/return_banner.jpg) no-repeat;
   position: relative;
 }
 /* line 254, ../sass/prototype.scss */
@@ -615,4 +615,40 @@ body {
 /* line 471, ../sass/prototype.scss */
 .m-act_1 {
   margin-right: 50px;
+}
+
+/* line 4, ../sass/return.scss */
+#return_main {
+  margin: 0 auto;
+  width: 926px;
+  height: 587px;
+  padding: 49px 0;
+  text-align: center;
+}
+/* line 10, ../sass/return.scss */
+#return_main textarea {
+  resize: none;
+  width: 884px;
+  height: 473px;
+  border: #e4e4e1 1px solid;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 900;
+  padding: 20px;
+  color: black;
+}
+/* line 21, ../sass/return.scss */
+#return_main textarea::-webkit-input-placeholder {
+  color: black;
+}
+/* line 24, ../sass/return.scss */
+#return_main input[type=submit] {
+  width: 140px;
+  height: 44px;
+  background-color: #e8554e;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 44px;
 }
