@@ -1,7 +1,7 @@
 $(function(){
     function all(node){
         var type = $(node).parent().parent(".block").attr("data-type");
-        if (type == "college" || type == "campus") {
+        if (type == "1" || type == "2") {
             if ($(node).attr("data-role") == 0) {
                 $(node).parent().parent(".block").find("p").removeClass("z-select");
                 $(node).addClass("z-select");
@@ -15,7 +15,7 @@ $(function(){
     $("#sort_part").find("p").click(function(){
         if(!$(this).hasClass("z-select")) {
             $(this).addClass("z-select");
-            all(this)        
+            all(this);      
         }
         else {
             $(this).removeClass("z-select");
@@ -30,6 +30,6 @@ $(function(){
             j=0;
             i++;
         })
-        console.log(d);
+        // console.log(d);
     })
 })
