@@ -17,6 +17,7 @@ $banner: url(../images/about_banner.jpg) !default;
         padding: 20px;
         font-weight: 900;
         color: black;
+        overflow: hidden;
     }
     textarea::-webkit-input-placeholder {
         color: black;

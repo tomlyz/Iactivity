@@ -28,7 +28,7 @@ $(function(){
         $(".g-mid").find(".down_").hide();
         $(".g-mid").find(".summry_more").css("top","349px")
         $(this).parent().parent().find(".down_").show();
-        $(this).parent().find(".summry_more").show().animate({"top":"1px"},200);
+        $(this).parent().find(".summry_more").show().animate({"top":0},200);
     })
     $(".summry_more").mouseleave(function(){
         $(this).parent().parent().find(".down_").hide();

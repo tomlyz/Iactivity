@@ -604,7 +604,7 @@ body {
   font-weight: 900;
   line-height: 30px;
   top: 349px;
-  left: 0;
+  left: 1px;
   display: none;
 }
 /* line 467, ../sass/prototype.scss */
@@ -636,12 +636,13 @@ body {
   padding: 20px;
   font-weight: 900;
   color: black;
+  overflow: hidden;
 }
-/* line 21, ../sass/about.scss */
+/* line 22, ../sass/about.scss */
 #return_main textarea::-webkit-input-placeholder {
   color: black;
 }
-/* line 24, ../sass/about.scss */
+/* line 25, ../sass/about.scss */
 #return_main input[type=submit] {
   width: 140px;
   height: 44px;
